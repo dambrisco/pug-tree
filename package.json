@@ -1,0 +1,29 @@
+{
+  "name": "pug-tree",
+  "version": "1.0.0",
+  "description": "Compiles pug templates into an object representation based on the pug template directory structure",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dambrisco/pug-tree.git"
+  },
+  "keywords": [
+    "pug",
+    "directory",
+    "tree",
+    "compile",
+    "template"
+  ],
+  "author": "Dan Ambrisco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dambrisco/pug-tree/issues"
+  },
+  "homepage": "https://github.com/dambrisco/pug-tree#readme",
+  "dependencies": {
+    "pug": "^2.0.0-rc.2"
+  }
+}
