@@ -27,7 +27,7 @@ Given a folder structure:
 
 You will be able to do the following:
 ```node
-const templates = require('pug-tree')(path.join(__dirname, 'templates'), { title: title })
+var templates = require('pug-tree')(path.join(__dirname, 'templates'), { title: title })
 var indexHtml = templates.index({ body: indexBody })
 var nestedPageHtml = templates.nested.page({ body: nestedPageBody })
 ```
