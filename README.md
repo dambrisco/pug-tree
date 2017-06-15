@@ -1,3 +1,6 @@
+[![pug-tree](https://raw.githubusercontent.com/dambrisco/pug-tree/master/pug-tree.jpg)](https://raw.githubusercontent.com/dambrisco/pug-tree/master/pug-tree.jpg)  
+[Source: flicker/dapuglet](https://www.flickr.com/photos/dapuglet)
+
 # pug-tree
 [![NPM version](https://img.shields.io/npm/v/pug-tree.svg)](https://npmjs.org/package/pug-tree "View this project on NPM")
 [![Build Status](https://img.shields.io/travis/dambrisco/pug-tree.svg)](https://travis-ci.org/dambrisco/pug-tree "View this project's build information")
