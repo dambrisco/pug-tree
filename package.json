@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/dambrisco/pug-tree#readme",
   "dependencies": {
-    "pug": "^2.0.0-rc.2"
+    "pug": "^3.0.2"
   }
 }
