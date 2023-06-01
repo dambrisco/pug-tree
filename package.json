@@ -1,6 +1,6 @@
 {
   "name": "pug-tree",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Compiles pug templates into an object representation based on the pug template directory structure",
   "main": "index.js",
   "scripts": {
