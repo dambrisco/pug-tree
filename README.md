@@ -4,7 +4,7 @@
 # pug-tree
 [![NPM version](https://img.shields.io/npm/v/pug-tree?logo=npm)](https://npmjs.org/package/pug-tree "View this project on NPM")
 [![Dependency status](https://img.shields.io/librariesio/github/dambrisco/pug-tree?logo=librariesio)](https://libraries.io/github/dambrisco/pug-tree "View this project on Libraries.io")
-[![CI status](https://img.shields.io/github/actions/workflow/status/dambrisco/pug-tree/node.js.yml?logo=github)](https://libraries.io/github/dambrisco/pug-tree "View this project on Libraries.io")
+[![CI status](https://img.shields.io/github/actions/workflow/status/dambrisco/pug-tree/node.js.yml?logo=github)](https://github.com/dambrisco/pug-tree/actions/workflows/node.js.yml?query=branch%3Atrunk "View this project's CI run history")
 
 pug-tree is a tiny library design to build nested objects of templating functions from a given directory of [pug template](https://github.com/pugjs/pug) files.
 
