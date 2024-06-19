@@ -30,7 +30,7 @@ jobs:
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          version="$(npm version ${{ inputs.part }})"
+          version="$(npm version --no-git-tag-version ${{ inputs.part }})"
           git push
           gh release create "$version" --generate-notes
 
