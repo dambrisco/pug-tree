@@ -26,11 +26,12 @@ jobs:
         with:
           node-version: '20.x'
           registry-url: 'https://registry.npmjs.org'
-      - name: "Push to repo"
+      - name: "Create and commit release"
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           version="$(npm version --no-git-tag-version ${{ inputs.part }})"
+          git commit -am "release: $version"
           git push
           gh release create "$version" --generate-notes
 
