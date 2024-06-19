@@ -17,6 +17,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      GH_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v4
       # Setup .npmrc file to publish to npm
@@ -34,4 +36,6 @@ jobs:
 
   publish:
     uses: dambrisco/pug-tree/.github/workflows/publish.yaml@trunk
+    needs:
+      - bump
     secrets: inherit
